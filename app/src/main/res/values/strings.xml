@@ -1,0 +1,32 @@
+<resources>
+    <string name="lbtitulo">Rellene el Siguiente Formulario</string>
+    <string name="lbnombre">Nombre:</string>
+    <string name="lbapellido">Apellido:</string>
+    <string name="lbedad">Edad:</string>
+    <string name="lbgenero">Género:</string>
+    <string name="lbcivil">Estado Civil:</string>
+    <string name="lbhijos">¿Tiene Hijos?</string>
+    <string name="innombre_H" translatable="false">Pepe</string>
+    <string name="inapellido_H" translatable="false">Lucas</string>
+    <string name="inedad_H" translatable="false">18</string>
+    <string name="Rhombre">Hombre</string>
+    <string name="Rmujer">Mujer</string>
+
+    <string name="Hijos_On">Si</string>
+    <string name="Hijos_Off">No</string>
+    <string name="btngenerar">Generar Texto</string>
+    <string name="btnreset">Resetear Valores</string>
+    <string name="Casado">Casado</string>
+    <string name="Viudo">Viudo</string>
+    <string name="Separado">Separado</string>
+    <string name="Otro">Otro</string>
+    <string name="lbresult">Resultado</string>
+    <string-array name="valores">
+        <item>@string/Casado</item>
+        <item>@string/Separado</item>
+        <item>@string/Viudo</item>
+        <item>@string/Otro</item>
+    </string-array>
+    <string name="app_name">Datos personales</string>
+
+</resources>

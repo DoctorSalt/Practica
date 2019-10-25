@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal information</string>
+    <string name="Casado">married</string>
+    <string name="Hijos_Off">No</string>
+    <string name="Hijos_On">Yes</string>
+    <string name="Otro">Other</string>
+    <string name="Rhombre">Male</string>
+    <string name="Rmujer">Female</string>
+    <string name="Separado">Separated</string>
+    <string name="Viudo">Widower</string>
+    <string name="btngenerar">Generate Text</string>
+    <string name="btnreset">Reset Values</string>
+    <string name="lbhijos">"Do you have kids?   "</string>
+    <string name="lbgenero">Gender:</string>
+    <string name="lbedad">Age:</string>
+    <string name="lbapellido">Last Name</string>
+    <string name="lbcivil">Estado Civil:</string>
+    <string name="lbnombre">Name:</string>
+    <string name="lbresult">Result</string>
+    <string name="lbtitulo">Complete the form below</string>
+</resources>

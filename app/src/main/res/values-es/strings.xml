@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos personales</string>
+    <string name="Casado">Casado</string>
+    <string name="Hijos_Off">No</string>
+    <string name="Hijos_On">Si</string>
+    <string name="Otro">Otro</string>
+    <string name="Rhombre">Hombre</string>
+    <string name="Rmujer">Mujer</string>
+    <string name="Separado">Separado</string>
+    <string name="Viudo">Viudo</string>
+    <string name="btngenerar">Generar Texto</string>
+    <string name="btnreset">Resetear Valores</string>
+    <string name="lbapellido">Apellidos:</string>
+    <string name="lbcivil">Estado Civil:</string>
+    <string name="lbedad">Edad:</string>
+    <string name="lbgenero">Género</string>
+    <string name="lbhijos">¿Tiene Hijos?</string>
+    <string name="lbnombre">Nombre:</string>
+    <string name="lbresult">Resultado</string>
+    <string name="lbtitulo">Rellene el Siguiente Formulario</string>
+</resources>
