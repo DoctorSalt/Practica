@@ -23,10 +23,8 @@ public class MainActivity extends AppCompatActivity implements OnContextClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ArrayAdapter adaptadorTipoFichero;
-        adaptadorTipoFichero = ArrayAdapter.createFromResource(this, R.array.valores, R.layout.support_simple_spinner_dropdown_item);
-        final Spinner spn;
-        spn = findViewById(R.id.spinner);
+        ArrayAdapter adaptadorTipoFichero = ArrayAdapter.createFromResource(this, R.array.valores, R.layout.support_simple_spinner_dropdown_item);
+        final Spinner spn = findViewById(R.id.spinner);
         spn.setAdapter(adaptadorTipoFichero);
         Button btnreset = findViewById(R.id.btnreset);
         btnreset.setOnClickListener(new View.OnClickListener() {
