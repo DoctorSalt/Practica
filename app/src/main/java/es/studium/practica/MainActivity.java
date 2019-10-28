@@ -52,8 +52,11 @@ public class MainActivity extends AppCompatActivity implements OnContextClickLis
         Button btngenerar = (Button)findViewById(R.id.btngenerar);
         btngenerar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View arg0) {
                 String nombre="";
+                errorNombre=false;
+                errorApellido=false;
+                errorEdad=false;
                 String apellido="";
                 String genero="";
                 int edad=0;
@@ -100,8 +103,6 @@ public class MainActivity extends AppCompatActivity implements OnContextClickLis
                     hijos="sin hijos";
                 }
                 final EditText resultadoFinal = findViewById(R.id.lbresult);
-                //resultadoFinal.setTextColor(getColor(R.color.colorPrimary));
-                //resultadoFinal.setText(apellido + " , " + nombre + ".  "+genero+" ," + mayorOmenor + ", " + estadoCivil + " , " + hijos + ".");
 
                 if(errorNombre==true){
                     resultadoFinal.setTextColor(getColor(R.color.colorMal));
