@@ -8,18 +8,21 @@
 
     <EditText
         android:id="@+id/lbresult"
-        android:layout_width="277dp"
-        android:layout_height="45dp"
+        android:layout_width="650dp"
+        android:layout_height="39dp"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:editable="false"
         android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="none|text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.752"
-        android:inputType="textNoSuggestions"
-        android:clickable="false"
-        />
+        app:layout_constraintVertical_bias="0.758" />
 
     <TextView
         android:id="@+id/lbtitulo"
