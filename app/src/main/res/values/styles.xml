@@ -8,4 +8,216 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="estiloNombre">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="losResultados">
+        <item name="android:layout_width">277dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:editable">false</item>
+        <item name="android:ems">10</item>
+        <item name="android:enabled">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:inputType">none|text</item>
+        <item name="android:linksClickable">false</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:saveEnabled">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="resetBoton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="botonGeneras">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="switcheame">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:showText">false</item>
+        <item name="android:textOff">@string/Hijos_Off</item>
+        <item name="android:textOn">@string/Hijos_On</item>
+    </style>
+
+    <style name="spinToFast">
+        <item name="android:layout_width">184dp</item>
+        <item name="android:layout_height">21dp</item>
+    </style>
+
+    <style name="circulitoGrupo">
+        <item name="android:layout_width">179dp</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:checkedButton">@id/rhombre</item>
+    </style>
+
+    <style name="circulitoBoton1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="hijosEstilo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="civilEstilo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="generoEstilo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="estiloEdadIn">
+        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">numberSigned</item>
+    </style>
+
+    <style name="estiloEdadEscrito">
+        <item name="android:layout_width">41dp</item>
+        <item name="android:layout_height">22dp</item>
+    </style>
+
+    <style name="inApellidoEstilo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="estiloApellido">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="inputNombreEstilo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="tituloEstilos" parent="android:Widget.DeviceDefault.Light.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <style name="estiloResultado2">
+        <item name="android:layout_width">650dp</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:contextClickable">false</item>
+        <item name="android:editable">false</item>
+        <item name="android:ems">10</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:inputType">none|text</item>
+    </style>
+
+    <style name="estiloTitulo2" parent="android:Widget.DeviceDefault.Light.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="inNombreEstilo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="apellidoEstilo2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="inapellidoEstilo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="edadEstilo">
+        <item name="android:layout_width">41dp</item>
+        <item name="android:layout_height">22dp</item>
+    </style>
+
+    <style name="inEdadEstilo">
+        <item name="android:layout_width">102dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">numberSigned</item>
+    </style>
+
+    <style name="generoEstilo2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="civilEstilo2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="hijosEstilo2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="grupoEstilo2">
+        <item name="android:layout_width">235dp</item>
+        <item name="android:layout_height">66dp</item>
+        <item name="android:checkedButton">@id/rhombre</item>
+    </style>
+
+    <style name="radioButton1Estilo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="radioButton2Estilo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="spinerEstilo2">
+        <item name="android:layout_width">184dp</item>
+        <item name="android:layout_height">21dp</item>
+    </style>
+
+    <style name="switchEstilo2">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">37dp</item>
+        <item name="android:showText">false</item>
+        <item name="android:textOff">@string/Hijos_Off</item>
+        <item name="android:textOn">@string/Hijos_On</item>
+    </style>
+
+    <style name="botonGenerarEstilo2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="botonResetEstilo2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>

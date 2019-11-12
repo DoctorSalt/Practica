@@ -127,7 +127,8 @@ public class MainActivity extends AppCompatActivity implements OnContextClickLis
                         }
                         else{
                             resultadoFinal.setTextColor(getColor(R.color.colorPrimary));
-                            resultadoFinal.setText(apellido + " , " + nombre + ".  "+genero+" ," + mayorOmenor + ", " + estadoCivil + " , " + hijos + ".");
+                            String textoResultado = apellido + " , " + nombre + ".  " + genero + " ," + mayorOmenor + ", " + estadoCivil + " , " + hijos + ".";
+                            resultadoFinal.setText(textoResultado);
                         }
                     }
                 }

@@ -19,4 +19,6 @@
     <string name="lbnombre">Name:</string>
     <string name="lbresult">Result</string>
     <string name="lbtitulo">Complete the form below</string>
+    <string name="inapellido_H">Write the surname</string>
+    <string name="innombre_H" translatable="false">Write the name</string>
 </resources>

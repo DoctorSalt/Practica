@@ -8,10 +8,7 @@
 
     <TextView
         android:id="@+id/lbtitulo"
-        style="@android:style/Widget.DeviceDefault.Light.TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        style="@style/tituloEstilos"
         android:text="@string/lbtitulo"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,213 +18,173 @@
 
     <TextView
         android:id="@+id/lbnombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/lbnombre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintVertical_bias="0.077"
+        style="@style/estiloNombre" />
 
     <EditText
         android:id="@+id/innombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
         android:hint="@string/innombre_H"
-        android:inputType="none|text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.059"
+        style="@style/inputNombreEstilo" />
 
     <TextView
         android:id="@+id/lbapellido"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/lbapellido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154" />
+        app:layout_constraintVertical_bias="0.154"
+        style="@style/estiloApellido" />
 
     <EditText
         android:id="@+id/inapellido"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
         android:hint="@string/inapellido_H"
-        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.142"
+        style="@style/inApellidoEstilo" />
 
     <TextView
         android:id="@+id/lbedad"
-        android:layout_width="41dp"
-        android:layout_height="22dp"
         android:text="@string/lbedad"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.266" />
+        app:layout_constraintVertical_bias="0.266"
+        style="@style/estiloEdadEscrito" />
 
     <EditText
         android:id="@+id/inedad"
-        android:layout_width="102dp"
-        android:layout_height="58dp"
-        android:ems="10"
         android:hint="@string/inedad_H"
-        android:inputType="numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242" />
+        app:layout_constraintVertical_bias="0.242"
+        style="@style/estiloEdadIn" />
 
     <TextView
         android:id="@+id/lbgenero"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/lbgenero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/lbtitulo"
-        app:layout_constraintVertical_bias="0.35" />
+        app:layout_constraintVertical_bias="0.35"
+        style="@style/generoEstilo" />
 
     <TextView
         android:id="@+id/lbcivil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/lbcivil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/lbtitulo"
-        app:layout_constraintVertical_bias="0.442" />
+        app:layout_constraintVertical_bias="0.442"
+        style="@style/civilEstilo" />
 
     <TextView
         android:id="@+id/lbhijos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/lbhijos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/lbtitulo"
-        app:layout_constraintVertical_bias="0.497" />
+        app:layout_constraintVertical_bias="0.497"
+        style="@style/hijosEstilo" />
 
     <RadioGroup
         android:id="@+id/groupGenero"
-        android:layout_width="179dp"
-        android:layout_height="62dp"
-        android:checkedButton="@id/rhombre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344">
+        app:layout_constraintVertical_bias="0.344"
+        style="@style/circulitoGrupo">
 
         <RadioButton
             android:id="@+id/rhombre"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Rhombre" />
+            android:text="@string/Rhombre"
+            style="@style/circulitoBoton1" />
 
         <RadioButton
             android:id="@+id/rmujer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Rmujer" />
+            android:text="@string/Rmujer"
+            style="@style/circulitoBoton1" />
     </RadioGroup>
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="184dp"
-        android:layout_height="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/lbtitulo"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintVertical_bias="0.44"
+        style="@style/spinToFast" />
 
     <Switch
         android:id="@+id/swhijos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:showText="false"
-        android:textOff="@string/Hijos_Off"
-        android:textOn="@string/Hijos_On"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/switcheame" />
 
     <Button
         android:id="@+id/btngenerar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/btngenerar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.621" />
+        app:layout_constraintVertical_bias="0.621"
+        style="@style/botonGeneras" />
 
     <Button
         android:id="@+id/btnreset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/btnreset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/btngenerar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.621" />
+        app:layout_constraintVertical_bias="0.621"
+        style="@style/resetBoton" />
 
     <EditText
         android:id="@+id/lbresult"
-        android:layout_width="277dp"
-        android:layout_height="45dp"
-        android:clickable="false"
-        android:editable="false"
-        android:ems="10"
-        android:enabled="false"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:includeFontPadding="false"
-        android:inputType="none|text"
-        android:linksClickable="false"
-        android:longClickable="false"
-        android:saveEnabled="false"
-        android:textAllCaps="false"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729" />
+        app:layout_constraintVertical_bias="0.729"
+        style="@style/losResultados" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,4 +19,6 @@
     <string name="lbnombre">Nombre:</string>
     <string name="lbresult">Resultado</string>
     <string name="lbtitulo">Rellene el Siguiente Formulario</string>
+    <string name="inapellido_H" translatable="false">Escriba el apellido</string>
+    <string name="innombre_H">Escriba el nombre</string>
 </resources>

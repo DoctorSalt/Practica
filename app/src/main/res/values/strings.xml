@@ -6,8 +6,8 @@
     <string name="lbgenero">Género:</string>
     <string name="lbcivil">Estado Civil:</string>
     <string name="lbhijos">¿Tiene Hijos?</string>
-    <string name="innombre_H" translatable="false">Pepe</string>
-    <string name="inapellido_H" translatable="false">Lucas</string>
+    <string name="innombre_H">Escriba el nombre</string>
+    <string name="inapellido_H" translatable="false">Escriba el apellido</string>
     <string name="inedad_H" translatable="false">18</string>
     <string name="Rhombre">Hombre</string>
     <string name="Rmujer">Mujer</string>
