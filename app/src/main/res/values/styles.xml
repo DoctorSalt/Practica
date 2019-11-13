@@ -7,10 +7,17 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="TemaChungo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimarioCambiao</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
     <style name="estiloNombre">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="losResultados">
@@ -29,6 +36,7 @@
         <item name="android:saveEnabled">false</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textStyle">bold</item>
+
     </style>
 
     <style name="resetBoton">
@@ -68,16 +76,19 @@
     <style name="hijosEstilo">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="civilEstilo">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="generoEstilo">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="estiloEdadIn">
@@ -90,6 +101,7 @@
     <style name="estiloEdadEscrito">
         <item name="android:layout_width">41dp</item>
         <item name="android:layout_height">22dp</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="inApellidoEstilo">
@@ -97,11 +109,13 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="estiloApellido">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="inputNombreEstilo">
@@ -115,6 +129,8 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">@color/colorImportante</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="estiloResultado2">
@@ -133,6 +149,8 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/colorImportante</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="inNombreEstilo">
@@ -145,6 +163,7 @@
     <style name="apellidoEstilo2">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="inapellidoEstilo">
@@ -157,6 +176,7 @@
     <style name="edadEstilo">
         <item name="android:layout_width">41dp</item>
         <item name="android:layout_height">22dp</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="inEdadEstilo">
@@ -169,16 +189,19 @@
     <style name="generoEstilo2">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="civilEstilo2">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="hijosEstilo2">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorXD</item>
     </style>
 
     <style name="grupoEstilo2">

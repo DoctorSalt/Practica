@@ -20,6 +20,7 @@
         android:id="@+id/lbtitulo"
         style="@style/estiloTitulo2"
         android:text="@string/lbtitulo"
+
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"

@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#4F00A7</color>
     <color name="colorAccent">#D63870</color>
     <color name="colorMal">#FF0000</color>
-</resources>
+    <color name="colorXD">#4f00a7</color>
+    <color name="colorPrimarioCambiao">#ed5c83</color>
+    <color name="colorImportante">#0000cd</color>
+    </resources>
